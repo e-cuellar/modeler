@@ -29,7 +29,7 @@ import org.pentaho.ui.xul.stereotype.Bindable;
 /**
  * User: rfellows Date: 10/13/11 Time: 9:09 AM
  */
-public class MemberPropertyMetaData extends BaseColumnBackedMetaData implements Serializable {
+public class MemberPropertyMetaData extends BaseColumnBackedMetaData<MemberPropertyMetaData> implements Serializable {
   private static final long serialVersionUID = 1416688972721247836L;
   private LevelMetaData parent;
   private static final String IMAGE = "images/sm_member_prop_icon.png";
